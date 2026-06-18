@@ -1,6 +1,6 @@
 # 🎓 Gestion Universitaire — Système d'Analyse et de Pilotage des Études
 
-> Système **Business Intelligence** complet couvrant le stockage transactionnel (SQL), documentaire (NoSQL) et l'analyse décisionnelle multidimensionnelle (Data Warehouse).
+> Système **Data Engineer** complet couvrant le stockage transactionnel (SQL), documentaire (NoSQL) et l'analyse décisionnelle multidimensionnelle (Data Warehouse).
 
 ![MySQL](https://img.shields.io/badge/MySQL-8.x-4479A1?style=flat&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-7.x-47A248?style=flat&logo=mongodb&logoColor=white)
@@ -378,7 +378,7 @@ GO
 
 **Japhet Allah-N'diguim**
 
-Projet réalisé dans le cadre d'un cursus en **Business Intelligence** et **Systèmes d'Information Décisionnels**.
+Projet réalisé dans le cadre de la **certification Data Engineer ForceN Sénégal** .
 
 ---
 
