@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="DW_GestionUniversitaire">
-  <ConnectionProperties>
-    <Extension>SQL</Extension>
-    <ConnectString>Data Source=JAPHET-ALLAHNDI;Initial Catalog=DW_GestionUniversitaire</ConnectString>
-  </ConnectionProperties>
-  <DataSourceID>afeabc58-9dbd-46b7-9125-63a2e623c128</DataSourceID>
-</RptDataSource>

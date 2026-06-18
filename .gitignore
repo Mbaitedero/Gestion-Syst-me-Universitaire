@@ -1,2 +1,9 @@
 ~$*  nul
 ~$* 
+.vs/ 
+bin/ 
+obj/ 
+*.suo 
+*.user 
+*.rdl.data 
+*.rsuser 
