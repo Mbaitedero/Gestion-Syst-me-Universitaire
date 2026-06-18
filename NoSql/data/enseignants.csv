@@ -1,0 +1,124 @@
+ens_id,nom,prenom,email,grade,date_embauche,id_filiere,id_matiere,id_niveau,nom_filiere,code_filiere,code_matiere,libelle_matiere,nom_niveau,annee_universitaire
+ENS_1,Dubois,Jean-Michel,jm.dubois@universite.edu,Professeur,2010-09-01,1,1,1,"Génie Logiciel",GL,INFO101,"Algorithmique et Structures de Données","Licence 1",2025-2026
+ENS_1,Dubois,Jean-Michel,jm.dubois@universite.edu,Professeur,2010-09-01,1,8,2,"Génie Logiciel",GL,INFO201,"Génie Logiciel et UML","Licence 2",2025-2026
+ENS_2,Benali,Amina,a.benali@universite.edu,Professeur,2008-03-15,5,16,1,"Mathématiques Appliquées",MA,MATH101,"Analyse Mathématique I","Licence 1",2025-2026
+ENS_2,Benali,Amina,a.benali@universite.edu,Professeur,2008-03-15,6,18,1,"Statistiques et Probabilités",STAT,MATH103,"Probabilités et Statistiques","Licence 1",2025-2026
+ENS_3,Traoré,Moussa,m.traore@universite.edu,"Maître de conférences",2015-10-01,3,11,3,"Intelligence Artificielle",IA,INFO204,"Intelligence Artificielle","Licence 3",2025-2026
+ENS_3,Traoré,Moussa,m.traore@universite.edu,"Maître de conférences",2015-10-01,3,12,4,"Intelligence Artificielle",IA,INFO205,"Apprentissage Automatique (Machine Learning)","Master 1",2025-2026
+ENS_4,Fontaine,Claire,c.fontaine@universite.edu,Assistant,2020-09-01,1,6,1,"Génie Logiciel",GL,INFO106,"Développement Web (HTML/CSS/JS)","Licence 1",2025-2026
+ENS_5,Nguyễn,Linh,l.nguyen@universite.edu,"Maître de conférences",2017-01-15,6,22,2,"Statistiques et Probabilités",STAT,MATH202,"Statistiques Inférentielles","Licence 2",2025-2026
+ENS_6,Girard,Pierre,p.girard@universite.edu,Professeur,2009-09-01,2,12,4,"Data Science et Big Data",DSB,INFO205,"Apprentissage Automatique (Machine Learning)","Master 1",2025-2026
+ENS_6,Girard,Pierre,p.girard@universite.edu,Professeur,2009-09-01,2,13,3,"Data Science et Big Data",DSB,INFO206,"Big Data et NoSQL","Licence 3",2025-2026
+ENS_7,Konaté,Fatoumata,f.konate@universite.edu,Professeur,2011-02-01,13,40,1,"Management des Organisations",MGT,MGT101,"Introduction au Management","Licence 1",2025-2026
+ENS_7,Konaté,Fatoumata,f.konate@universite.edu,Professeur,2011-02-01,13,43,2,"Management des Organisations",MGT,MGT104,"Gestion des Ressources Humaines","Licence 2",2025-2026
+ENS_8,Lefebvre,Julien,j.lefebvre@universite.edu,"Maître de conférences",2016-09-01,8,25,1,"Électronique et Instrumentation",ELEC,PHYS101,"Mécanique Classique","Licence 1",2025-2026
+ENS_8,Lefebvre,Julien,j.lefebvre@universite.edu,"Maître de conférences",2016-09-01,8,26,2,"Électronique et Instrumentation",ELEC,PHYS102,Électromagnétisme,"Licence 2",2025-2026
+ENS_9,Mbaye,Ousmane,o.mbaye@universite.edu,Assistant,2021-10-01,4,10,3,"Cybersécurité et Réseaux",CYB,INFO203,"Sécurité Informatique","Licence 3",2025-2026
+ENS_10,Carpentier,Éric,e.carpentier@universite.edu,Professeur,2007-09-01,20,60,1,"Réseaux et Télécommunications",RT,TEL101,"Signaux et Systèmes","Licence 1",2025-2026
+ENS_10,Carpentier,Éric,e.carpentier@universite.edu,Professeur,2007-09-01,20,63,2,"Réseaux et Télécommunications",RT,TEL104,"Protocoles Réseaux (TCP/IP)","Licence 2",2025-2026
+ENS_11,Petit,Sandrine,s.petit@universite.edu,"Maître de conférences",2014-03-01,2,11,2,"Data Science et Big Data",DSB,INFO204,"Intelligence Artificielle","Licence 2",2025-2026
+ENS_12,Diallo,Mamadou,mam.diallo@universite.edu,Professeur,2006-09-01,12,35,1,"Microbiologie Médicale",MIC,BIO101,"Biologie Cellulaire et Moléculaire","Licence 1",2025-2026
+ENS_12,Diallo,Mamadou,mam.diallo@universite.edu,Professeur,2006-09-01,12,37,2,"Microbiologie Médicale",MIC,BIO103,Microbiologie,"Licence 2",2025-2026
+ENS_13,Laurent,Hélène,h.laurent@universite.edu,Assistant,2022-09-01,18,52,1,"Droit Privé",DPR,DRT102,"Droit Civil","Licence 1",2025-2026
+ENS_14,Rousseau,Frédéric,f.rousseau@universite.edu,Professeur,2010-01-01,17,53,2,"Droit Public",DP,DRT103,"Droit Constitutionnel","Licence 2",2025-2026
+ENS_14,Rousseau,Frédéric,f.rousseau@universite.edu,Professeur,2010-01-01,17,54,3,"Droit Public",DP,DRT104,"Droit Administratif","Licence 3",2025-2026
+ENS_15,Chevalier,Marie-Anne,ma.chevalier@universite.edu,"Maître de conférences",2013-09-01,9,31,1,"Chimie Industrielle",CI,CHIM101,"Chimie Générale et Organique","Licence 1",2025-2026
+ENS_16,Tine,Abdoulaye,a.tine@universite.edu,"Maître de conférences",2018-09-01,16,47,1,"Analyse Économique",AE,ECO101,Microéconomie,"Licence 1",2025-2026
+ENS_16,Tine,Abdoulaye,a.tine@universite.edu,"Maître de conférences",2018-09-01,16,48,2,"Analyse Économique",AE,ECO102,Macroéconomie,"Licence 2",2025-2026
+ENS_17,Moreau,Sylvie,s.moreau@universite.edu,Professeur,2005-09-01,21,64,1,"Langues Étrangères Appliquées",LEA,LAN101,"Anglais des Affaires","Licence 1",2025-2026
+ENS_17,Moreau,Sylvie,s.moreau@universite.edu,Professeur,2005-09-01,21,65,2,"Langues Étrangères Appliquées",LEA,LAN102,"Expression Écrite et Orale","Licence 2",2025-2026
+ENS_18,Fischer,Daniel,d.fischer@universite.edu,Professeur,2008-02-01,7,29,4,"Physique Fondamentale",PF,PHYS201,"Mécanique Quantique","Master 1",2025-2026
+ENS_18,Fischer,Daniel,d.fischer@universite.edu,Professeur,2008-02-01,7,30,5,"Physique Fondamentale",PF,PHYS202,"Physique des Solides","Master 2",2025-2026
+ENS_19,Dupont,Michel,mi.dupont@universite.edu,Professeur,2019-09-01,1,3,1,"Génie Logiciel",GL,INFO103,"Bases de Données Relationnelles","Licence 1",2025-2026
+ENS_20,Cissé,Mariam,mar.cisse@universite.edu,"Maître de conférences",2016-09-01,5,17,2,"Mathématiques Appliquées",MA,MATH102,"Algèbre Linéaire","Licence 2",2025-2026
+ENS_21,Renard,Eugène,e.renard@universite.edu,Professeur,2011-09-01,15,49,3,"Commerce International",CI2,ECO103,"Économie Internationale","Licence 3",2025-2026
+ENS_22,Lopes,Cécile,c.lopes@universite.edu,Assistant,2022-03-01,10,34,1,"Biochimie Structurale",BIOC,CHIM104,"Biochimie Fondamentale","Licence 1",2025-2026
+ENS_23,Marchal,Isaac,i.marchal@universite.edu,Assistant,2020-09-01,11,35,2,Biotechnologie,BIOT,BIO101,"Biologie Cellulaire et Moléculaire","Licence 2",2025-2026
+ENS_24,Hubert,Marc,ma.hubert@universite.edu,Professeur,2012-09-01,14,44,3,"Finance et Comptabilité",FIN,MGT201,"Finance d'Entreprise","Licence 3",2025-2026
+ENS_25,Diakité,Martine,mar.diakite@universite.edu,Assistant,2023-01-01,6,50,4,"Statistiques et Probabilités",STAT,ECO104,Économétrie,"Master 1",2025-2026
+ENS_26,Jourdan,David,d.jourdan@universite.edu,Professeur,2009-09-01,15,47,2,"Commerce International",CI2,ECO101,Microéconomie,"Licence 2",2025-2026
+ENS_27,Perrin,Jean-Baptiste,jb.perrin@universite.edu,"Maître de conférences",2014-09-01,19,56,2,"Génie Civil et Construction",GCC,GCI101,"Résistance des Matériaux","Licence 2",2025-2026
+ENS_27,Perrin,Jean-Baptiste,jb.perrin@universite.edu,"Maître de conférences",2014-09-01,19,59,3,"Génie Civil et Construction",GCC,GCI104,"Béton Armé et Structures","Licence 3",2025-2026
+ENS_28,Chauveau,Patrick,p.chauveau@universite.edu,Assistant,2018-09-01,4,10,2,"Cybersécurité et Réseaux",CYB,INFO203,"Sécurité Informatique","Licence 2",2025-2026
+ENS_29,Sow,Aliou,a.sow@universite.edu,"Maître de conférences",2015-09-01,3,11,4,"Intelligence Artificielle",IA,INFO204,"Intelligence Artificielle","Master 1",2025-2026
+ENS_30,Garnier,Marie,ma.garnier@universite.edu,Assistant,2021-09-01,13,45,1,"Management des Organisations",MGT,MGT202,"Droit des Affaires","Licence 1",2025-2026
+ENS_31,Vasseur,Marianne,mar.vasseur@universite.edu,"Maître de conférences",2013-09-01,9,33,2,"Chimie Industrielle",CI,CHIM103,"Thermodynamique Chimique","Licence 2",2025-2026
+ENS_32,Lecoq,Philippine,p.lecoq@universite.edu,Professeur,2008-09-01,5,21,3,"Mathématiques Appliquées",MA,MATH201,"Calcul Différentiel et Intégral","Licence 3",2025-2026
+ENS_33,Rolland,Valentine,v.rolland@universite.edu,"Maître de conférences",2011-09-01,8,27,1,"Électronique et Instrumentation",ELEC,PHYS103,Thermodynamique,"Licence 1",2025-2026
+ENS_34,Gomes,Andrée,a.gomes@universite.edu,Assistant,2019-09-01,2,13,5,"Data Science et Big Data",DSB,INFO206,"Big Data et NoSQL","Master 2",2025-2026
+ENS_35,François,Marcel,ma.francois@universite.edu,"Maître de conférences",2016-09-01,14,41,2,"Finance et Comptabilité",FIN,MGT102,"Comptabilité Générale","Licence 2",2025-2026
+ENS_36,Wagner,Thomas,t.wagner@universite.edu,Professeur,2007-09-01,20,61,3,"Réseaux et Télécommunications",RT,TEL102,"Transmission des Données","Licence 3",2025-2026
+ENS_37,Bègue,Colette,c.begue@universite.edu,Professeur,2010-09-01,10,38,2,"Biochimie Structurale",BIOC,BIO104,"Physiologie Animale","Licence 2",2025-2026
+ENS_38,Weiss,Céline,c.weiss@universite.edu,Assistant,2020-09-01,17,51,1,"Droit Public",DP,DRT101,"Introduction au Droit","Licence 1",2025-2026
+ENS_39,Aubry,Guillaume,g.aubry@universite.edu,"Maître de conférences",2015-09-01,20,62,4,"Réseaux et Télécommunications",RT,TEL103,"Systèmes d'Antennes","Master 1",2025-2026
+ENS_40,Ndiaye,Gabrielle,g.ndiaye@universite.edu,"Maître de conférences",2017-09-01,19,57,1,"Génie Civil et Construction",GCC,GCI102,"Mécanique des Fluides","Licence 1",2025-2026
+ENS_41,Charles,Océane,o.charles@universite.edu,"Maître de conférences",2018-09-01,15,40,4,"Commerce International",CI2,MGT101,"Introduction au Management","Master 1",2025-2026
+ENS_42,Gilbert,Isabelle,i.gilbert@universite.edu,Professeur,2009-09-01,13,42,3,"Management des Organisations",MGT,MGT103,"Marketing Fondamental","Licence 3",2025-2026
+ENS_43,Étienne,Matthieu,ma.etienne@universite.edu,Professeur,2006-09-01,3,14,5,"Intelligence Artificielle",IA,INFO207,"Traitement du Langage Naturel","Master 2",2025-2026
+ENS_44,Grégoire,Clémence,c.gregoire@universite.edu,"Maître de conférences",2013-09-01,13,43,4,"Management des Organisations",MGT,MGT104,"Gestion des Ressources Humaines","Master 1",2025-2026
+ENS_45,Faivre,Benoît,b.faivre@universite.edu,Professeur,2010-09-01,14,46,3,"Finance et Comptabilité",FIN,MGT203,"Contrôle de Gestion","Licence 3",2025-2026
+ENS_46,Masson,Honoré,h.masson@universite.edu,Professeur,2012-09-01,16,50,3,"Analyse Économique",AE,ECO104,Économétrie,"Licence 3",2025-2026
+ENS_47,Leroux,Sophie,so.leroux@universite.edu,"Maître de conférences",2016-09-01,6,18,3,"Statistiques et Probabilités",STAT,MATH103,"Probabilités et Statistiques","Licence 3",2025-2026
+ENS_48,Briand,Jeannine,j.briand@universite.edu,Professeur,2005-09-01,18,51,2,"Droit Privé",DPR,DRT101,"Introduction au Droit","Licence 2",2025-2026
+ENS_49,Collin,Alexandre,a.collin@universite.edu,"Maître de conférences",2014-09-01,2,1,1,"Data Science et Big Data",DSB,INFO101,"Algorithmique et Structures de Données","Licence 1",2025-2026
+ENS_50,Bigot,Éléonore,el.bigot@universite.edu,"Maître de conférences",2015-09-01,11,36,3,Biotechnologie,BIOT,BIO102,"Génétique Générale","Licence 3",2025-2026
+ENS_51,Lenoir,Alain,al.lenoir@universite.edu,Assistant,2022-09-01,7,25,1,"Physique Fondamentale",PF,PHYS101,"Mécanique Classique","Licence 1",2025-2026
+ENS_52,Macé,Gabriel,ga.mace@universite.edu,"Maître de conférences",2017-09-01,11,39,4,Biotechnologie,BIOT,BIO201,Immunologie,"Master 1",2025-2026
+ENS_53,Régnier,Odette,o.regnier@universite.edu,Professeur,2008-09-01,16,47,3,"Analyse Économique",AE,ECO101,Microéconomie,"Licence 3",2025-2026
+ENS_54,Lecoq,Lucy,l.lecoq@universite.edu,Assistant,2020-09-01,18,52,3,"Droit Privé",DPR,DRT102,"Droit Civil","Licence 3",2025-2026
+ENS_55,Marie,Théodore,th.marie@universite.edu,"Maître de conférences",2013-09-01,18,55,4,"Droit Privé",DPR,DRT201,"Droit du Travail","Master 1",2025-2026
+ENS_56,Barbier,Cécile,ce.barbier@universite.edu,Assistant,2019-09-01,12,37,3,"Microbiologie Médicale",MIC,BIO103,Microbiologie,"Licence 3",2025-2026
+ENS_57,Macé,Michelle,mi.mace@universite.edu,Professeur,2007-09-01,7,29,3,"Physique Fondamentale",PF,PHYS201,"Mécanique Quantique","Licence 3",2025-2026
+ENS_58,Charrier,Paulette,p.charrier@universite.edu,"Maître de conférences",2012-09-01,19,58,2,"Génie Civil et Construction",GCC,GCI103,"Topographie et Géomatique","Licence 2",2025-2026
+ENS_59,Guillou,Franck,f.guillou@universite.edu,Professeur,2011-09-01,14,41,1,"Finance et Comptabilité",FIN,MGT102,"Comptabilité Générale","Licence 1",2025-2026
+ENS_60,Toussaint,Théophile,th.toussaint@universite.edu,Assistant,2023-09-01,2,13,1,"Data Science et Big Data",DSB,INFO206,"Big Data et NoSQL","Licence 1",2025-2026
+ENS_61,Riou,Corinne,co.riou@universite.edu,"Maître de conférences",2016-09-01,16,48,3,"Analyse Économique",AE,ECO102,Macroéconomie,"Licence 3",2025-2026
+ENS_62,Philippe,Honoré,ho.philippe@universite.edu,Assistant,2021-09-01,20,63,3,"Réseaux et Télécommunications",RT,TEL104,"Protocoles Réseaux (TCP/IP)","Licence 3",2025-2026
+ENS_63,Ledoux,Isaac,is.ledoux@universite.edu,Assistant,2020-09-01,4,4,1,"Cybersécurité et Réseaux",CYB,INFO104,"Réseaux Informatiques","Licence 1",2025-2026
+ENS_64,Merle,Éléonore,el.merle@universite.edu,"Maître de conférences",2014-09-01,11,36,4,Biotechnologie,BIOT,BIO102,"Génétique Générale","Master 1",2025-2026
+ENS_65,Diarra,Tristan,tr.diarra@universite.edu,Assistant,2022-09-01,10,34,2,"Biochimie Structurale",BIOC,CHIM104,"Biochimie Fondamentale","Licence 2",2025-2026
+ENS_66,Moreau,Frédéric,fr.moreau@universite.edu,Professeur,2009-09-01,17,54,4,"Droit Public",DP,DRT104,"Droit Administratif","Master 1",2025-2026
+ENS_67,"Le Gall",Olivier,o.legall@universite.edu,Assistant,2021-09-01,1,5,2,"Génie Logiciel",GL,INFO105,"Systèmes d'Exploitation","Licence 2",2025-2026
+ENS_68,Guillot,Hélène,h.guillot@universite.edu,Professeur,2008-09-01,8,28,3,"Électronique et Instrumentation",ELEC,PHYS104,"Optique Physique","Licence 3",2025-2026
+ENS_69,Clément,Nathanael,n.clement@universite.edu,Professeur,2010-09-01,7,27,2,"Physique Fondamentale",PF,PHYS103,Thermodynamique,"Licence 2",2025-2026
+ENS_70,Muller,Patricia,p.muller@universite.edu,Assistant,2020-09-01,3,12,1,"Intelligence Artificielle",IA,INFO205,"Apprentissage Automatique (Machine Learning)","Licence 1",2025-2026
+ENS_71,Gosselin,Gilbert,gi.gosselin@universite.edu,Professeur,2007-09-01,1,7,1,"Génie Logiciel",GL,INFO107,"Architecture des Ordinateurs","Licence 1",2025-2026
+ENS_72,Delmas,Christelle,ch.delmas@universite.edu,"Maître de conférences",2015-09-01,9,32,3,"Chimie Industrielle",CI,CHIM102,"Chimie Analytique","Licence 3",2025-2026
+ENS_73,Gaillard,Rémy,r.gaillard@universite.edu,Professeur,2011-09-01,7,30,4,"Physique Fondamentale",PF,PHYS202,"Physique des Solides","Master 1",2025-2026
+ENS_74,Séguin,Audrey,a.seguin@universite.edu,Professeur,2009-09-01,2,49,2,"Data Science et Big Data",DSB,ECO103,"Économie Internationale","Licence 2",2025-2026
+ENS_75,Gimenez,Olivia,o.gimenez@universite.edu,Professeur,2012-09-01,9,31,2,"Chimie Industrielle",CI,CHIM101,"Chimie Générale et Organique","Licence 2",2025-2026
+ENS_76,Blot,Luc,lu.blot@universite.edu,"Maître de conférences",2018-09-01,1,8,3,"Génie Logiciel",GL,INFO201,"Génie Logiciel et UML","Licence 3",2025-2026
+ENS_77,Langlois,Andrée,a.langlois@universite.edu,"Maître de conférences",2017-09-01,15,23,2,"Commerce International",CI2,MATH203,"Recherche Opérationnelle","Licence 2",2025-2026
+ENS_78,Delahaye,Alix,al.delahaye@universite.edu,"Maître de conférences",2016-09-01,8,26,4,"Électronique et Instrumentation",ELEC,PHYS102,Électromagnétisme,"Master 1",2025-2026
+ENS_79,Blondel,Catherine,ca.blondel@universite.edu,Assistant,2021-09-01,19,56,3,"Génie Civil et Construction",GCC,GCI101,"Résistance des Matériaux","Licence 3",2025-2026
+ENS_80,Hoarau,Maurice,ma.hoarau@universite.edu,"Maître de conférences",2013-09-01,2,12,2,"Data Science et Big Data",DSB,INFO205,"Apprentissage Automatique (Machine Learning)","Licence 2",2025-2026
+ENS_81,Maillot,Alphonse,al.maillot@universite.edu,Professeur,2010-09-01,9,33,4,"Chimie Industrielle",CI,CHIM103,"Thermodynamique Chimique","Master 1",2025-2026
+ENS_82,Lenoir,Michel,mi.lenoir@universite.edu,"Maître de conférences",2015-09-01,16,47,4,"Analyse Économique",AE,ECO101,Microéconomie,"Master 1",2025-2026
+ENS_83,Vasseur,Aimé,ai.vasseur@universite.edu,"Maître de conférences",2013-09-01,11,35,3,Biotechnologie,BIOT,BIO101,"Biologie Cellulaire et Moléculaire","Licence 3",2025-2026
+ENS_84,Neveu,Louise,lo.neveu@universite.edu,Professeur,2008-09-01,9,34,4,"Chimie Industrielle",CI,CHIM104,"Biochimie Fondamentale","Master 1",2025-2026
+ENS_85,Rolland,Daniel,da.rolland@universite.edu,Assistant,2019-09-01,4,10,4,"Cybersécurité et Réseaux",CYB,INFO203,"Sécurité Informatique","Master 1",2025-2026
+ENS_86,Rémy,David,da.remy@universite.edu,"Maître de conférences",2017-09-01,13,44,5,"Management des Organisations",MGT,MGT201,"Finance d'Entreprise","Master 2",2025-2026
+ENS_87,Gomez,Roger,ro.gomez@universite.edu,Assistant,2022-09-01,10,34,3,"Biochimie Structurale",BIOC,CHIM104,"Biochimie Fondamentale","Licence 3",2025-2026
+ENS_88,Vallée,Marcel,ma.vallee@universite.edu,Assistant,2021-09-01,20,60,2,"Réseaux et Télécommunications",RT,TEL101,"Signaux et Systèmes","Licence 2",2025-2026
+ENS_89,Payet,Monique,mo.payet@universite.edu,Assistant,2020-09-01,8,7,2,"Électronique et Instrumentation",ELEC,INFO107,"Architecture des Ordinateurs","Licence 2",2025-2026
+ENS_90,Verdier,Christelle,cr.verdier@universite.edu,Professeur,2006-09-01,15,40,5,"Commerce International",CI2,MGT101,"Introduction au Management","Master 2",2025-2026
+ENS_91,Reynaud,Suzanne,su.reynaud@universite.edu,Assistant,2022-09-01,18,52,4,"Droit Privé",DPR,DRT102,"Droit Civil","Master 1",2025-2026
+ENS_92,Aubert,Étienne,et.aubert@universite.edu,Assistant,2021-09-01,13,42,1,"Management des Organisations",MGT,MGT103,"Marketing Fondamental","Licence 1",2025-2026
+ENS_93,Delmas,Aurore,au.delmas@universite.edu,Professeur,2010-09-01,6,22,4,"Statistiques et Probabilités",STAT,MATH202,"Statistiques Inférentielles","Master 1",2025-2026
+ENS_94,Briand,Antoinette,an.briand@universite.edu,Assistant,2023-09-01,19,59,4,"Génie Civil et Construction",GCC,GCI104,"Béton Armé et Structures","Master 1",2025-2026
+ENS_95,Chauveau,Bernard,be.chauveau@universite.edu,Assistant,2022-09-01,16,48,5,"Analyse Économique",AE,ECO102,Macroéconomie,"Master 2",2025-2026
+ENS_96,Guibert,Madeleine,ma.guibert@universite.edu,Professeur,2009-09-01,18,55,5,"Droit Privé",DPR,DRT201,"Droit du Travail","Master 2",2025-2026
+ENS_97,Bonnet,Anne,an.bonnet@universite.edu,Professeur,2011-09-01,1,9,3,"Génie Logiciel",GL,INFO202,"Programmation Mobile (Android)","Licence 3",2025-2026
+ENS_98,Maillot,Susanne,su.maillot@universite.edu,"Maître de conférences",2019-09-01,17,53,3,"Droit Public",DP,DRT103,"Droit Constitutionnel","Licence 3",2025-2026
+ENS_99,Nicolas,Paul,pa.nicolas@universite.edu,"Maître de conférences",2012-09-01,9,31,3,"Chimie Industrielle",CI,CHIM101,"Chimie Générale et Organique","Licence 3",2025-2026
+ENS_100,Aubert,Élise,el.aubert@universite.edu,"Maître de conférences",2016-09-01,2,11,5,"Data Science et Big Data",DSB,INFO204,"Intelligence Artificielle","Master 2",2025-2026
+ENS_101,Baldé,Ibrahima,i.balde@universite.edu,Professeur,2009-09-01,1,2,2,"Génie Logiciel",GL,INFO102,"Programmation Orientée Objet (Java)","Licence 2",2025-2026
+ENS_102,Touré,Aissatou,a.toure@universite.edu,"Maître de conférences",2014-09-01,3,14,3,"Intelligence Artificielle",IA,INFO207,"Traitement du Langage Naturel","Licence 3",2025-2026
+ENS_103,Zimmermann,Klaus,k.zimmermann@universite.edu,Professeur,2010-09-01,5,24,3,"Mathématiques Appliquées",MA,MATH204,"Équations Différentielles","Licence 3",2025-2026
+ENS_104,Santos,Inês,in.santos@universite.edu,Assistant,2022-09-01,4,4,2,"Cybersécurité et Réseaux",CYB,INFO104,"Réseaux Informatiques","Licence 2",2025-2026
+ENS_105,Koné,Drissa,d.kone@universite.edu,"Maître de conférences",2016-09-01,11,39,5,Biotechnologie,BIOT,BIO201,Immunologie,"Master 2",2025-2026
+ENS_106,Garba,Rachida,r.garba@universite.edu,Professeur,2008-09-01,17,51,3,"Droit Public",DP,DRT101,"Introduction au Droit","Licence 3",2025-2026
+ENS_107,Leblanc,Sébastien,se.leblanc@universite.edu,"Maître de conférences",2017-09-01,20,61,4,"Réseaux et Télécommunications",RT,TEL102,"Transmission des Données","Master 1",2025-2026
+ENS_108,Aminata,Coulibaly,am.coulibaly@universite.edu,Assistant,2023-09-01,13,45,2,"Management des Organisations",MGT,MGT202,"Droit des Affaires","Licence 2",2025-2026
+ENS_109,Perrot,Thierry,th.perrot@universite.edu,Professeur,2007-09-01,6,23,5,"Statistiques et Probabilités",STAT,MATH203,"Recherche Opérationnelle","Master 2",2025-2026
+ENS_110,Dieng,Khady,kh.dieng@universite.edu,"Maître de conférences",2015-09-01,12,38,2,"Microbiologie Médicale",MIC,BIO104,"Physiologie Animale","Licence 2",2025-2026

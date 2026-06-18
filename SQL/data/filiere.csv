@@ -1,0 +1,23 @@
+"id_filiere";"nom_filiere";"code_filiere";"id_departement"
+1;"Génie Logiciel";"GL";1
+2;"Data Science et Big Data";"DSB";1
+3;"Intelligence Artificielle";"IA";1
+4;"Cybersécurité et Réseaux";"CYB";1
+5;"Mathématiques Appliquées";"MA";2
+6;"Statistiques et Probabilités";"STAT";2
+7;"Physique Fondamentale";"PF";3
+8;"Électronique et Instrumentation";"ELEC";3
+9;"Chimie Industrielle";"CI";4
+10;"Biochimie Structurale";"BIOC";4
+11;"Biotechnologie";"BIOT";5
+12;"Microbiologie Médicale";"MIC";5
+13;"Management des Organisations";"MGT";6
+14;"Finance et Comptabilité";"FIN";6
+15;"Commerce International";"CI2";7
+16;"Analyse Économique";"AE";7
+17;"Droit Public";"DP";8
+18;"Droit Privé";"DPR";8
+19;"Génie Civil et Construction";"GCC";9
+20;"Réseaux et Télécommunications";"RT";10
+21;"Langues Étrangères Appliquées";"LEA";11
+22;"Sociologie et Anthropologie";"SA";12

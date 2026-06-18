@@ -1,0 +1,23 @@
+dept_id,nom_dept,responsable,id_filiere,nom_filiere,code_filiere
+DEPT_1,"Informatique et Systèmes","Pr. Jean-Michel Dubois",1,"Génie Logiciel",GL
+DEPT_1,"Informatique et Systèmes","Pr. Jean-Michel Dubois",2,"Data Science et Big Data",DSB
+DEPT_1,"Informatique et Systèmes","Pr. Jean-Michel Dubois",3,"Intelligence Artificielle",IA
+DEPT_1,"Informatique et Systèmes","Pr. Jean-Michel Dubois",4,"Cybersécurité et Réseaux",CYB
+DEPT_2,"Mathématiques et Statistiques","Pr. Amina Benali",5,"Mathématiques Appliquées",MA
+DEPT_2,"Mathématiques et Statistiques","Pr. Amina Benali",6,"Statistiques et Probabilités",STAT
+DEPT_3,"Physique Appliquée","Pr. François Moulin",7,"Physique Fondamentale",PF
+DEPT_3,"Physique Appliquée","Pr. François Moulin",8,"Électronique et Instrumentation",ELEC
+DEPT_4,"Chimie et Sciences des Matériaux","Pr. Isabelle Jourdain",9,"Chimie Industrielle",CI
+DEPT_4,"Chimie et Sciences des Matériaux","Pr. Isabelle Jourdain",10,"Biochimie Structurale",BIOC
+DEPT_5,"Sciences de la Vie et de la Terre","Pr. Nathalie Leroux",11,Biotechnologie,BIOT
+DEPT_5,"Sciences de la Vie et de la Terre","Pr. Nathalie Leroux",12,"Microbiologie Médicale",MIC
+DEPT_6,"Management et Administration","Pr. Marguerite Konaté",13,"Management des Organisations",MGT
+DEPT_6,"Management et Administration","Pr. Marguerite Konaté",14,"Finance et Comptabilité",FIN
+DEPT_7,"Sciences Économiques","Pr. Émile Fernandez",15,"Commerce International",CI2
+DEPT_7,"Sciences Économiques","Pr. Émile Fernandez",16,"Analyse Économique",AE
+DEPT_8,"Sciences Juridiques","Pr. Claire Briand",17,"Droit Public",DP
+DEPT_8,"Sciences Juridiques","Pr. Claire Briand",18,"Droit Privé",DPR
+DEPT_9,"Génie Civil et Bâtiment","Pr. Arthur Martinez",19,"Génie Civil et Construction",GCC
+DEPT_10,"Télécommunications et Réseaux","Pr. Éric Carpentier",20,"Réseaux et Télécommunications",RT
+DEPT_11,"Langues et Communication","Pr. Sylvie Moreau",21,"Langues Étrangères Appliquées",LEA
+DEPT_12,"Sciences Humaines et Sociales","Pr. Mohamed Diallo",22,"Sociologie et Anthropologie",SA

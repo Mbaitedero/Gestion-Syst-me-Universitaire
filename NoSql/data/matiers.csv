@@ -1,0 +1,71 @@
+matiere_id,code_matiere,libelle,semestre,coefficient,volume_horaire
+MAT_1,INFO101,"Algorithmique et Structures de Données",S1,3.00,60
+MAT_2,INFO102,"Programmation Orientée Objet (Java)",S2,3.00,60
+MAT_3,INFO103,"Bases de Données Relationnelles",S1,2.50,45
+MAT_4,INFO104,"Réseaux Informatiques",S2,2.00,45
+MAT_5,INFO105,"Systèmes d'Exploitation",S1,2.50,45
+MAT_6,INFO106,"Développement Web (HTML/CSS/JS)",S2,2.00,45
+MAT_7,INFO107,"Architecture des Ordinateurs",S1,2.00,30
+MAT_8,INFO201,"Génie Logiciel et UML",S1,3.00,60
+MAT_9,INFO202,"Programmation Mobile (Android)",S2,2.50,45
+MAT_10,INFO203,"Sécurité Informatique",S1,2.50,45
+MAT_11,INFO204,"Intelligence Artificielle",S2,3.00,60
+MAT_12,INFO205,"Apprentissage Automatique (Machine Learning)",S1,3.00,60
+MAT_13,INFO206,"Big Data et NoSQL",S2,2.50,45
+MAT_14,INFO207,"Traitement du Langage Naturel",S1,2.00,30
+MAT_15,INFO301,"Projet de Fin de Licence",S2,4.00,75
+MAT_16,MATH101,"Analyse Mathématique I",S1,3.00,60
+MAT_17,MATH102,"Algèbre Linéaire",S2,3.00,60
+MAT_18,MATH103,"Probabilités et Statistiques",S1,3.00,60
+MAT_19,MATH104,"Analyse Numérique",S2,2.50,45
+MAT_20,MATH105,"Mathématiques Discrètes",S1,2.00,45
+MAT_21,MATH201,"Calcul Différentiel et Intégral",S2,3.00,60
+MAT_22,MATH202,"Statistiques Inférentielles",S1,2.50,45
+MAT_23,MATH203,"Recherche Opérationnelle",S2,2.50,45
+MAT_24,MATH204,"Équations Différentielles",S1,2.50,45
+MAT_25,PHYS101,"Mécanique Classique",S1,3.00,60
+MAT_26,PHYS102,Électromagnétisme,S2,3.00,60
+MAT_27,PHYS103,Thermodynamique,S1,2.50,45
+MAT_28,PHYS104,"Optique Physique",S2,2.00,45
+MAT_29,PHYS201,"Mécanique Quantique",S1,3.00,60
+MAT_30,PHYS202,"Physique des Solides",S2,2.50,45
+MAT_31,CHIM101,"Chimie Générale et Organique",S1,3.00,60
+MAT_32,CHIM102,"Chimie Analytique",S2,2.50,45
+MAT_33,CHIM103,"Thermodynamique Chimique",S1,2.50,45
+MAT_34,CHIM104,"Biochimie Fondamentale",S2,3.00,60
+MAT_35,BIO101,"Biologie Cellulaire et Moléculaire",S1,3.00,60
+MAT_36,BIO102,"Génétique Générale",S2,2.50,45
+MAT_37,BIO103,Microbiologie,S1,2.50,45
+MAT_38,BIO104,"Physiologie Animale",S2,2.00,45
+MAT_39,BIO201,Immunologie,S1,3.00,60
+MAT_40,MGT101,"Introduction au Management",S1,2.00,45
+MAT_41,MGT102,"Comptabilité Générale",S2,3.00,60
+MAT_42,MGT103,"Marketing Fondamental",S1,2.50,45
+MAT_43,MGT104,"Gestion des Ressources Humaines",S2,2.50,45
+MAT_44,MGT201,"Finance d'Entreprise",S1,3.00,60
+MAT_45,MGT202,"Droit des Affaires",S2,2.00,45
+MAT_46,MGT203,"Contrôle de Gestion",S1,2.50,45
+MAT_47,ECO101,Microéconomie,S1,3.00,60
+MAT_48,ECO102,Macroéconomie,S2,3.00,60
+MAT_49,ECO103,"Économie Internationale",S1,2.50,45
+MAT_50,ECO104,Économétrie,S2,2.50,45
+MAT_51,DRT101,"Introduction au Droit",S1,2.50,45
+MAT_52,DRT102,"Droit Civil",S2,3.00,60
+MAT_53,DRT103,"Droit Constitutionnel",S1,2.50,45
+MAT_54,DRT104,"Droit Administratif",S2,2.50,45
+MAT_55,DRT201,"Droit du Travail",S1,2.50,45
+MAT_56,GCI101,"Résistance des Matériaux",S1,3.00,60
+MAT_57,GCI102,"Mécanique des Fluides",S2,2.50,45
+MAT_58,GCI103,"Topographie et Géomatique",S1,2.00,45
+MAT_59,GCI104,"Béton Armé et Structures",S2,3.00,60
+MAT_60,TEL101,"Signaux et Systèmes",S1,3.00,60
+MAT_61,TEL102,"Transmission des Données",S2,2.50,45
+MAT_62,TEL103,"Systèmes d'Antennes",S1,2.00,45
+MAT_63,TEL104,"Protocoles Réseaux (TCP/IP)",S2,2.50,45
+MAT_64,LAN101,"Anglais des Affaires",S1,1.50,30
+MAT_65,LAN102,"Expression Écrite et Orale",S2,1.50,30
+MAT_66,LAN103,"Espagnol Niveau A2-B1",S1,1.50,30
+MAT_67,TRV101,"Méthodologie du Travail Universitaire",S1,1.00,30
+MAT_68,TRV102,"Informatique Bureautique",S2,1.00,30
+MAT_69,TRV103,"Éthique Professionnelle",S1,1.00,30
+MAT_70,TRV104,"Entrepreneuriat et Innovation",S2,2.00,45

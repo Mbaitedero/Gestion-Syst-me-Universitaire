@@ -1,0 +1,121 @@
+"id_etudiant";"nom";"prenom";"date_naissance";"email";"telephone";"adresse";"statut";"date_inscription";"id_filiere";"id_niveau"
+1;"Konaté";"Aminata";"2002-03-15";"aminata.konate@etud.universite.edu";"0612345601";"12 rue des Acacias, Dakar";"Actif";"2026-05-30";1;1
+2;"Traoré";"Moussa";"2001-07-22";"moussa.traore@etud.universite.edu";"0612345602";"45 avenue de la Paix, Abidjan";"Actif";"2026-05-30";2;2
+3;"Dupont";"Lucie";"2000-11-05";"lucie.dupont@etud.universite.edu";"0612345603";"8 boulevard Victor Hugo, Lyon";"Actif";"2026-05-30";3;3
+4;"Benali";"Karim";"2003-01-18";"karim.benali@etud.universite.edu";"0612345604";"23 rue Ibn Battouta, Casablanca";"Actif";"2026-05-30";4;2
+5;"Fontaine";"Emma";"2002-06-30";"emma.fontaine@etud.universite.edu";"0612345605";"5 allée des Roses, Bordeaux";"Actif";"2026-05-30";1;2
+6;"Diallo";"Fatou";"2001-09-12";"fatou.diallo@etud.universite.edu";"0612345606";"67 rue de la Liberté, Conakry";"Actif";"2026-05-30";5;1
+7;"Girard";"Pierre-Louis";"2000-04-25";"pierrelouis.girard@etud.universite.edu";"0612345607";"14 impasse des Lilas, Marseille";"Actif";"2026-05-30";6;4
+8;"Mbaye";"Ndèye";"2003-08-14";"ndeye.mbaye@etud.universite.edu";"0612345608";"31 avenue Cheikh Anta Diop, Dakar";"Actif";"2026-05-30";7;1
+9;"Lefevre";"Thomas";"2001-02-28";"thomas.lefevre@etud.universite.edu";"0612345609";"9 rue Gambetta, Toulouse";"Actif";"2026-05-30";8;3
+10;"Coulibaly";"Mariam";"2002-12-01";"mariam.coulibaly@etud.universite.edu";"0612345610";"18 rue Kwame Nkrumah, Bamako";"Actif";"2026-05-30";9;2
+11;"Rousseau";"Anaïs";"2001-05-17";"anais.rousseau@etud.universite.edu";"0612345611";"7 place de la Mairie, Nantes";"Actif";"2026-05-30";10;4
+12;"Sow";"Ibrahima";"2000-10-08";"ibrahima.sow@etud.universite.edu";"0612345612";"25 avenue Kennedy, Thiès";"Actif";"2026-05-30";11;1
+13;"Chevalier";"Marie";"2003-03-22";"marie.chevalier@etud.universite.edu";"0612345613";"3 rue du Château, Rennes";"Actif";"2026-05-30";12;2
+14;"Diarra";"Oumar";"2002-07-11";"oumar.diarra@etud.universite.edu";"0612345614";"52 boulevard de l'Indépendance, Bamako";"Actif";"2026-05-30";13;3
+15;"Laurent";"Julien";"2001-11-30";"julien.laurent@etud.universite.edu";"0612345615";"11 rue de la Paix, Paris";"Actif";"2026-05-30";14;2
+16;"Ndiaye";"Rokhaya";"2000-08-19";"rokhaya.ndiaye@etud.universite.edu";"0612345616";"6 avenue Léopold Sédar Senghor, Dakar";"Actif";"2026-05-30";15;4
+17;"Wagner";"Léa";"2003-04-05";"lea.wagner@etud.universite.edu";"0612345617";"29 rue des Peupliers, Strasbourg";"Actif";"2026-05-30";16;2
+18;"Diakité";"Adama";"2002-09-23";"adama.diakite@etud.universite.edu";"0612345618";"44 rue de la République, Abidjan";"Actif";"2026-05-30";17;1
+19;"Petit";"Camille";"2001-01-15";"camille.petit@etud.universite.edu";"0612345619";"17 avenue Jean Jaurès, Grenoble";"Actif";"2026-05-30";18;5
+20;"Baldé";"Mamadou";"2000-06-27";"mamadou.balde@etud.universite.edu";"0612345620";"8 rue du Commerce, Conakry";"Actif";"2026-05-30";19;1
+21;"Garnier";"Lucas";"2003-02-14";"lucas.garnier@etud.universite.edu";"0612345621";"35 allée des Platanes, Montpellier";"Actif";"2026-05-30";20;2
+22;"Touré";"Djeneba";"2002-08-09";"djeneba.toure@etud.universite.edu";"0612345622";"13 rue Modibo Kéïta, Bamako";"Actif";"2026-05-30";3;2
+23;"Perrin";"Clément";"2001-12-03";"clement.perrin@etud.universite.edu";"0612345623";"20 rue Saint-Nicolas, Lille";"Actif";"2026-05-30";6;4
+24;"Koné";"Drissa";"2003-05-28";"drissa.kone@etud.universite.edu";"0612345624";"39 boulevard Thomas Sankara, Ouagadougou";"Actif";"2026-05-30";1;4
+25;"Martin";"Sophie";"2000-09-16";"sophie.martin@etud.universite.edu";"0612345625";"2 rue des Magnolias, Nice";"Actif";"2026-05-30";7;4
+26;"Cissé";"Alioune";"2002-03-04";"alioune.cisse@etud.universite.edu";"0612345626";"48 avenue de la Gare, Thiès";"Actif";"2026-05-30";2;2
+27;"Moreau";"Isabelle";"2001-07-19";"isabelle.moreau@etud.universite.edu";"0612345627";"16 rue des Boulangers, Bordeaux";"Actif";"2026-05-30";13;1
+28;"Sarr";"Binta";"2003-11-07";"binta.sarr@etud.universite.edu";"0612345628";"5 rue Blaise Diagne, Dakar";"Actif";"2026-05-30";13;3
+29;"Hubert";"Marc";"2000-04-13";"marc.hubert@etud.universite.edu";"0612345629";"27 avenue des Martyrs, Nantes";"Actif";"2026-05-30";15;3
+30;"Sanogo";"Youssouf";"2002-08-25";"youssouf.sanogo@etud.universite.edu";"0612345630";"61 rue de la Fraternité, Bouaké";"Actif";"2026-05-30";14;5
+31;"Dubois";"Antoinette";"2001-01-31";"antoinette.dubois@etud.universite.edu";"0612345631";"4 impasse du Moulin, Toulouse";"Actif";"2026-05-30";16;2
+32;"Ba";"Aïssatou";"2000-05-20";"aissatou.ba@etud.universite.edu";"0612345632";"19 avenue Président Bourguiba, Kaolack";"Actif";"2026-05-30";7;3
+33;"Leroy";"Simon";"2003-09-08";"simon.leroy@etud.universite.edu";"0612345633";"33 rue de la Fontaine, Strasbourg";"Actif";"2026-05-30";7;1
+34;"Dembélé";"Lassina";"2002-03-15";"lassina.dembele@etud.universite.edu";"0612345634";"72 avenue de l'Unité, Sikasso";"Actif";"2026-05-30";19;5
+35;"Petit";"Alexandre";"2001-10-24";"alexandre.petit@etud.universite.edu";"0612345635";"9 rue Condorcet, Lyon";"Actif";"2026-05-30";2;3
+36;"Gueye";"Fatimata";"2000-08-04";"fatimata.gueye@etud.universite.edu";"0612345636";"14 rue Mermoz, Dakar";"Actif";"2026-05-30";2;1
+37;"Bernard";"Danielle";"2003-02-17";"danielle.bernard@etud.universite.edu";"0612345637";"22 avenue de la Victoire, Bordeaux";"Actif";"2026-05-30";19;4
+38;"Fofana";"Samba";"2002-06-12";"samba.fofana@etud.universite.edu";"0612345638";"37 rue des Mineurs, Conakry";"Actif";"2026-05-30";17;5
+39;"Lecomte";"Jeannine";"2001-10-20";"jeannine.lecomte@etud.universite.edu";"0612345639";"11 allée des Chênes, Nantes";"Actif";"2026-05-30";6;1
+40;"Coulibaly";"Berkissa";"2003-09-21";"berkissa.coulibaly@etud.universite.edu";"0612345640";"83 avenue de la Mosquée, Abidjan";"Actif";"2026-05-30";17;1
+41;"Lefebvre";"Laurent";"2001-09-28";"laurent.lefebvre@etud.universite.edu";"0612345641";"6 rue des Rossignols, Montpellier";"Actif";"2026-05-30";6;1
+42;"Diop";"Suzanne";"2002-07-27";"suzanne.diop@etud.universite.edu";"0612345642";"28 avenue Cheikh Anta, Dakar";"Actif";"2026-05-30";20;1
+43;"Morel";"Daniel";"2001-01-10";"daniel.morel@etud.universite.edu";"0612345643";"51 boulevard des Nations, Paris";"Actif";"2026-05-30";8;4
+44;"Camara";"Michelle";"2002-07-09";"michelle.camara@etud.universite.edu";"0612345644";"16 rue de la Solidarité, Conakry";"Actif";"2026-05-30";4;5
+45;"Picard";"Anne-Sophie";"2001-06-10";"annesophie.picard@etud.universite.edu";"0612345645";"3 avenue des Lilas, Marseille";"Actif";"2026-05-30";8;5
+46;"Sylla";"Mariama";"2002-11-10";"mariama.sylla@etud.universite.edu";"0612345646";"44 rue 22 Mars, Conakry";"Actif";"2026-05-30";20;1
+47;"Mercier";"Thibaut";"2001-04-26";"thibaut.mercier@etud.universite.edu";"0612345647";"8 rue Pasteur, Rennes";"Actif";"2026-05-30";20;1
+48;"Kouyaté";"Modibo";"2001-09-21";"modibo.kouyate@etud.universite.edu";"0612345648";"57 avenue de la Jeunesse, Bamako";"Actif";"2026-05-30";14;5
+49;"Perrot";"Chantal";"2002-12-04";"chantal.perrot@etud.universite.edu";"0612345649";"13 impasse du Tilleul, Grenoble";"Actif";"2026-05-30";19;5
+50;"Keita";"Maïmouna";"2001-04-18";"maimouna.keita@etud.universite.edu";"0612345650";"9 avenue de l'Amitié, Bamako";"Actif";"2026-05-30";11;3
+51;"Thomas";"Thérèse";"2000-05-28";"therese.thomas@etud.universite.edu";"0612345651";"21 rue du Lac, Annecy";"Actif";"2026-05-30";7;3
+52;"Bah";"Abdoulaye";"2001-10-28";"abdoulaye.bah@etud.universite.edu";"0612345652";"35 avenue Hadja Mariama, Labé";"Actif";"2026-05-30";8;3
+53;"Bertrand";"Claude";"2000-08-25";"claude.bertrand@etud.universite.edu";"0612345653";"7 rue de Rivoli, Paris";"Actif";"2026-05-30";13;2
+54;"Sangaré";"Marthe";"2001-12-10";"marthe.sangare@etud.universite.edu";"0612345654";"23 avenue Mobil Oil, Bouaké";"Actif";"2026-05-30";10;4
+55;"Leclerc";"Marcelle";"2000-07-03";"marcelle.leclerc@etud.universite.edu";"0612345655";"15 rue Molière, Bordeaux";"Actif";"2026-05-30";11;1
+56;"Diallo";"Mamadou Alpha";"2001-04-24";"mamadoualpha.diallo@etud.universite.edu";"0612345656";"41 boulevard Alpha Yaya, Conakry";"Actif";"2026-05-30";1;4
+57;"Beaumont";"Cécile";"2001-09-05";"cecile.beaumont@etud.universite.edu";"0612345657";"10 rue des Jardins, Toulouse";"Actif";"2026-05-30";20;5
+58;"Faye";"Capucine";"2002-10-31";"capucine.faye@etud.universite.edu";"0612345658";"62 avenue Blaise Diagne, Thiès";"Actif";"2026-05-30";4;1
+59;"Renard";"Noémi";"2001-06-26";"noemi.renard@etud.universite.edu";"0612345659";"5 rue Victor Hugo, Nantes";"Actif";"2026-05-30";18;2
+60;"Baldé";"Robert";"2002-04-12";"robert.balde@etud.universite.edu";"0612345660";"77 avenue des Combattants, Conakry";"Actif";"2026-05-30";17;3
+61;"Garba";"Brigitte";"2001-09-23";"brigitte.garba@etud.universite.edu";"0612345661";"18 quartier Plateau, Niamey";"Actif";"2026-05-30";5;3
+62;"Renaud";"Xavier";"2000-11-06";"xavier.renaud@etud.universite.edu";"0612345662";"33 rue de la Liberté, Strasbourg";"Actif";"2026-05-30";3;2
+63;"Barry";"Nicolas";"2001-12-05";"nicolas.barry@etud.universite.edu";"0612345663";"50 avenue du Port, Boke";"Actif";"2026-05-30";12;3
+64;"Benoît";"Christophe";"2002-06-19";"christophe.benoit@etud.universite.edu";"0612345664";"25 rue des Artisans, Toulouse";"Actif";"2026-05-30";6;4
+65;"Sawadogo";"Charles";"2001-12-05";"charles.sawadogo@etud.universite.edu";"0612345665";"11 secteur 5, Ouagadougou";"Actif";"2026-05-30";18;3
+66;"Nguyen";"Hortense";"2001-11-18";"hortense.nguyen@etud.universite.edu";"0612345666";"6 rue des Bons Enfants, Lyon";"Actif";"2026-05-30";20;5
+67;"Léger";"Odette";"2002-01-17";"odette.leger@etud.universite.edu";"0612345667";"29 allée des Mimosas, Nice";"Actif";"2026-05-30";1;5
+68;"Bamba";"Matthieu";"2000-01-19";"matthieu.bamba@etud.universite.edu";"0612345668";"34 avenue Houphouët-Boigny, Abidjan";"Actif";"2026-05-30";10;1
+69;"Bourgeois";"Yves";"2002-04-15";"yves.bourgeois@etud.universite.edu";"0612345669";"8 rue Carnot, Grenoble";"Actif";"2026-05-30";5;3
+70;"Doumbia";"Laurence";"2002-06-30";"laurence.doumbia@etud.universite.edu";"0612345670";"16 avenue de la Solidarité, Sikasso";"Actif";"2026-05-30";4;1
+71;"Thibault";"Margaud";"2001-11-14";"margaud.thibault@etud.universite.edu";"0612345671";"12 rue Racine, Bordeaux";"Actif";"2026-05-30";18;2
+72;"Kamara";"Benoît";"2001-11-01";"benoit.kamara@etud.universite.edu";"0612345672";"53 avenue des Mineurs, Conakry";"Actif";"2026-05-30";9;3
+73;"De Sousa";"Victor";"2001-02-25";"victor.desousa@etud.universite.edu";"0612345673";"17 rue Brésil, Praia";"Actif";"2026-05-30";20;2
+74;"Diagne";"Victoire";"2000-10-20";"victoire.diagne@etud.universite.edu";"0612345674";"40 avenue Libération, Saint-Louis";"Actif";"2026-05-30";11;2
+75;"Marty";"Maurice";"2000-07-30";"maurice.marty@etud.universite.edu";"0612345675";"3 chemin des Cèdres, Montpellier";"Actif";"2026-05-30";9;5
+76;"Samaké";"Virginie";"2001-10-03";"virginie.samake@etud.universite.edu";"0612345676";"28 rue de Ségou, Bamako";"Actif";"2026-05-30";16;3
+77;"Marchand";"Christelle";"2001-05-10";"christelle.marchand@etud.universite.edu";"0612345677";"9 impasse des Acacias, Rennes";"Actif";"2026-05-30";2;1
+78;"Soumaré";"Pierre";"2001-09-08";"pierre.soumare@etud.universite.edu";"0612345678";"67 rue Torokorobougou, Bamako";"Actif";"2026-05-30";14;3
+79;"Séguin";"Océane";"2001-05-11";"oceane.seguin@etud.universite.edu";"0612345679";"14 avenue des Sports, Paris";"Actif";"2026-05-30";2;1
+80;"Savané";"Inès";"2001-11-05";"ines.savane@etud.universite.edu";"0612345680";"36 avenue Almamy Bocar, Labé";"Actif";"2026-05-30";11;2
+81;"Labé";"Alexandria";"2002-02-27";"alexandria.labe@etud.universite.edu";"0612345681";"5 rue des Collines, Grenoble";"Actif";"2026-05-30";9;2
+82;"Tall";"Marie";"2004-01-30";"marie.tall@etud.universite.edu";"0612345682";"21 avenue Patrice Lumumba, Dakar";"Actif";"2026-05-30";15;5
+83;"Grenier";"Pénélope";"2002-07-16";"penelope.grenier@etud.universite.edu";"0612345683";"7 rue des Peupliers, Lyon";"Actif";"2026-05-30";14;5
+84;"Dupuis";"Adélaïde";"2003-06-22";"adelaide.dupuis@etud.universite.edu";"0612345684";"11 rue du Lac, Annecy";"Actif";"2026-05-30";1;1
+85;"Müller";"Corinne";"2001-03-20";"corinne.muller@etud.universite.edu";"0612345685";"48 rue de Mulhouse, Strasbourg";"Actif";"2026-05-30";3;2
+86;"Kouyaté";"Franck";"2002-10-13";"franck.kouyate@etud.universite.edu";"0612345686";"19 avenue de la Dignité, Conakry";"Actif";"2026-05-30";18;1
+87;"Jacques";"Mathilde";"2001-01-05";"mathilde.jacques@etud.universite.edu";"0612345687";"38 rue des Lierres, Bordeaux";"Actif";"2026-05-30";12;5
+88;"Chauvet";"Suzanne";"2002-07-26";"suzanne.chauvet@etud.universite.edu";"0612345688";"55 allée des Roses, Marseille";"Actif";"2026-05-30";18;2
+89;"Fouché";"Jeanne";"2001-12-22";"jeanne.fouche@etud.universite.edu";"0612345689";"26 chemin des Vignes, Toulouse";"Actif";"2026-05-30";14;2
+90;"Fernandez";"Roger";"2001-01-29";"roger.fernandez@etud.universite.edu";"0612345690";"4 rue Goya, Bordeaux";"Actif";"2026-05-30";2;3
+91;"Barthélémy";"Hélène";"2003-10-17";"helene.barthelemy@etud.universite.edu";"0612345691";"30 avenue des Droits de l'Homme, Lyon";"Actif";"2026-05-30";12;1
+92;"Costa";"Claude";"2000-12-09";"claude.costa@etud.universite.edu";"0612345692";"17 rue São Paulo, Praia";"Actif";"2026-05-30";12;2
+93;"Lecomte";"Adrienne";"2001-10-21";"adrienne.lecomte@etud.universite.edu";"0612345693";"9 rue du Maréchal, Rennes";"Actif";"2026-05-30";8;1
+94;"Godard";"Martine";"2000-02-09";"martine.godard@etud.universite.edu";"0612345694";"43 rue des Artistes, Paris";"Actif";"2026-05-30";12;5
+95;"Clément";"Olivier";"2002-04-28";"olivier.clement@etud.universite.edu";"0612345695";"15 avenue des Bois, Grenoble";"Actif";"2026-05-30";14;5
+96;"Blot";"Christelle";"2004-05-25";"christelle.blot@etud.universite.edu";"0612345696";"2 passage de la Fontaine, Strasbourg";"Actif";"2026-05-30";5;2
+97;"Morin";"Théodore";"2001-03-06";"theodore.morin@etud.universite.edu";"0612345697";"38 rue des Marronniers, Nantes";"Actif";"2026-05-30";6;2
+98;"Gnagna";"Margaud";"2003-04-21";"margaud.gnagna@etud.universite.edu";"0612345698";"44 rue Tambour, Ouagadougou";"Actif";"2026-05-30";14;1
+99;"Legrand";"Éléonore";"2001-04-05";"eleonore.legrand@etud.universite.edu";"0612345699";"6 rue Voltaire, Montpellier";"Actif";"2026-05-30";6;3
+100;"Benard";"Martine";"2001-02-16";"martine.benard@etud.universite.edu";"0612345700";"20 avenue des Fleurs, Nice";"Actif";"2026-05-30";14;2
+101;"Dramé";"Souleymane";"2002-05-12";"souleymane.drame@etud.universite.edu";"0612345701";"31 rue Sékou Touré, Conakry";"Actif";"2026-05-30";3;1
+102;"Martin";"Élodie";"2001-08-29";"elodie.martin@etud.universite.edu";"0612345702";"7 rue des Iris, Bordeaux";"Actif";"2026-05-30";1;3
+103;"Balde";"Aïssatou";"2002-03-17";"aissatou.balde@etud.universite.edu";"0612345703";"62 quartier Almamya, Conakry";"Actif";"2026-05-30";5;2
+104;"Rossignol";"Florian";"2001-11-11";"florian.rossignol@etud.universite.edu";"0612345704";"4 rue des Bleuets, Paris";"Actif";"2026-05-30";4;3
+105;"Sissoko";"Rokiatou";"2000-07-07";"rokiatou.sissoko@etud.universite.edu";"0612345705";"25 avenue Nelson Mandela, Bamako";"Actif";"2026-05-30";13;4
+106;"Lecourt";"Amandine";"2002-02-22";"amandine.lecourt@etud.universite.edu";"0612345706";"16 impasse des Hortensias, Nantes";"Actif";"2026-05-30";14;1
+107;"Djibril";"Keïta";"2001-06-03";"djibril.keita@etud.universite.edu";"0612345707";"8 avenue Modibo Keïta, Bamako";"Actif";"2026-05-30";2;4
+108;"Bouchard";"Pauline";"2003-09-15";"pauline.bouchard@etud.universite.edu";"0612345708";"19 rue des Tulipes, Grenoble";"Actif";"2026-05-30";18;1
+109;"Coulibaly";"Sékou";"2001-04-30";"sekou.coulibaly@etud.universite.edu";"0612345709";"47 rue Bourem, Mopti";"Actif";"2026-05-30";9;4
+110;"Giraud";"Mathieu";"2002-10-08";"mathieu.giraud@etud.universite.edu";"0612345710";"23 boulevard des Capucines, Lyon";"Actif";"2026-05-30";20;3
+111;"Ballo";"Kadiatou";"2001-01-25";"kadiatou.ballo@etud.universite.edu";"0612345711";"15 rue du Gouverneur, Kankan";"Actif";"2026-05-30";6;5
+112;"Dupré";"Margaux";"2002-07-14";"margaux.dupre@etud.universite.edu";"0612345712";"5 allée des Pinsons, Toulouse";"Actif";"2026-05-30";17;2
+113;"Diallo";"Boubacar";"2000-12-20";"boubacar.diallo@etud.universite.edu";"0612345713";"29 avenue de la Paix, Labé";"Actif";"2026-05-30";11;4
+114;"Vidal";"Chloé";"2003-03-11";"chloe.vidal@etud.universite.edu";"0612345714";"11 rue des Sorbiers, Montpellier";"Actif";"2026-05-30";3;1
+115;"Ouédraogo";"Aristide";"2001-08-17";"aristide.ouedraogo@etud.universite.edu";"0612345715";"36 secteur 12, Ouagadougou";"Actif";"2026-05-30";19;2
+116;"Renault";"Céline";"2002-05-05";"celine.renault@etud.universite.edu";"0612345716";"3 rue du Soleil, Nice";"Actif";"2026-05-30";10;3
+117;"Bah";"Mariama";"2001-02-18";"mariama.bah@etud.universite.edu";"0612345717";"45 quartier Ratoma, Conakry";"Actif";"2026-05-30";12;4
+118;"Chevalier";"Benoît";"2003-07-22";"benoit.chevalier@etud.universite.edu";"0612345718";"13 rue Passy, Paris";"Actif";"2026-05-30";8;2
+119;"Kourouma";"Aboubacar";"2000-11-09";"aboubacar.kourouma@etud.universite.edu";"0612345719";"56 avenue de la Guinée, Nzérékoré";"Actif";"2026-05-30";16;5
+120;"Poirier";"Lucie";"2002-04-03";"lucie.poirier@etud.universite.edu";"0612345720";"8 rue de la Mairie, Rennes";"Actif";"2026-05-30";15;2

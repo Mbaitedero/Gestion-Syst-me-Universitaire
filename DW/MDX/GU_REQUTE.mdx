@@ -1,0 +1,99 @@
+-- ======================================================
+-- Nom du projet  : DW_GestionUniversitaire
+-- Description    : MDX pour analyse OLAP
+-- Auteur         : Japhet Allah-N'diguim
+-- ======================================================
+
+-- ======================================================
+-- REQUÊTE 1 : Moyenne des notes par filière
+-- Objectif : Comparer les performances entre filières
+-- ======================================================
+SELECT
+    {
+        [Measures].[Note Obtenue],
+        [Measures].[Note Ponderee],
+        [Measures].[Coefficient Applique]
+    } ON COLUMNS,
+    NON EMPTY
+    ORDER(
+        [DIM FILIERE].[Nom Filiere].[Nom Filiere].MEMBERS,
+        [Measures].[Note Obtenue],
+        BDESC
+    ) ON ROWS
+FROM [DW Gestion Universitaire];
+
+
+-- ======================================================
+-- REQUÊTE 2 : Performance des étudiants par session
+-- Objectif : Comparer Normale vs Rattrapage
+-- ======================================================
+SELECT
+    NON EMPTY
+    [DIM SESSION].[Code Session].[Code Session].MEMBERS ON COLUMNS,
+    NON EMPTY
+    ORDER(
+        [DIM ETUDIANT].[Nom Complet].[Nom Complet].MEMBERS,
+        [Measures].[Note Obtenue],
+        BDESC
+    ) ON ROWS
+FROM [DW Gestion Universitaire]
+WHERE [Measures].[Note Obtenue];
+
+
+-- ======================================================
+-- REQUÊTE 3 : Taux de réussite par matière et filière
+-- Objectif : Identifier les matières difficiles
+-- ======================================================
+SELECT
+    NON EMPTY
+    [DIM FILIERE].[Nom Filiere].[Nom Filiere].MEMBERS ON COLUMNS,
+    NON EMPTY
+    ORDER(
+        [DIM MATIERE].[Libelle].[Libelle].MEMBERS,
+        [Measures].[Note Obtenue],
+        BASC
+    ) ON ROWS
+FROM [DW Gestion Universitaire]
+WHERE [Measures].[Note Obtenue];
+
+
+-- ======================================================
+-- REQUÊTE 4 : Performance par enseignant et matière
+-- Objectif : Évaluer l'efficacité pédagogique
+-- ======================================================
+SELECT
+    NON EMPTY
+    {
+        [Measures].[Note Obtenue],
+        [Measures].[Note Ponderee]
+    } ON COLUMNS,
+    NON EMPTY
+    ORDER(
+        CROSSJOIN(
+            [DIM ENSEIGNANT].[Nom Complet].[Nom Complet].MEMBERS,
+            [DIM MATIERE].[Libelle].[Libelle].MEMBERS
+        ),
+        [Measures].[Note Obtenue],
+        BDESC
+    ) ON ROWS
+FROM [DW Gestion Universitaire];
+
+
+-- ======================================================
+-- REQUÊTE 5 : Évolution des notes par niveau et année
+-- Objectif : Analyser la progression dans le temps
+-- ======================================================
+SELECT
+    NON EMPTY
+    [DIM NIVEAU].[Nom Niveau].[Nom Niveau].MEMBERS ON COLUMNS,
+    NON EMPTY
+    ORDER(
+        CROSSJOIN(
+            [DIM DATE].[Calendrier Universitaire].[Annee Universitaire].MEMBERS,
+            [DIM SESSION].[Code Session].[Code Session].MEMBERS
+        ),
+        [Measures].[Note Obtenue],
+        BDESC
+    ) ON ROWS
+FROM [DW Gestion Universitaire]
+WHERE [Measures].[Note Obtenue];

@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E877D8A5-8741-82E3-534A-20F4BA063FB5}|SSAS_GestionUniversitaire.dwproj|C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM DATE.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E877D8A5-8741-82E3-534A-20F4BA063FB5}|SSAS_GestionUniversitaire.dwproj|solutionrelative:DIM DATE.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E877D8A5-8741-82E3-534A-20F4BA063FB5}|SSAS_GestionUniversitaire.dwproj|C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM ENSEIGNANT.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E877D8A5-8741-82E3-534A-20F4BA063FB5}|SSAS_GestionUniversitaire.dwproj|solutionrelative:DIM ENSEIGNANT.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E877D8A5-8741-82E3-534A-20F4BA063FB5}|SSAS_GestionUniversitaire.dwproj|C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM ETUDIANT.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E877D8A5-8741-82E3-534A-20F4BA063FB5}|SSAS_GestionUniversitaire.dwproj|solutionrelative:DIM ETUDIANT.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E877D8A5-8741-82E3-534A-20F4BA063FB5}|SSAS_GestionUniversitaire.dwproj|C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM FILIERE.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E877D8A5-8741-82E3-534A-20F4BA063FB5}|SSAS_GestionUniversitaire.dwproj|solutionrelative:DIM FILIERE.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E877D8A5-8741-82E3-534A-20F4BA063FB5}|SSAS_GestionUniversitaire.dwproj|C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM MATIERE.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E877D8A5-8741-82E3-534A-20F4BA063FB5}|SSAS_GestionUniversitaire.dwproj|solutionrelative:DIM MATIERE.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E877D8A5-8741-82E3-534A-20F4BA063FB5}|SSAS_GestionUniversitaire.dwproj|C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM NIVEAU.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E877D8A5-8741-82E3-534A-20F4BA063FB5}|SSAS_GestionUniversitaire.dwproj|solutionrelative:DIM NIVEAU.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E877D8A5-8741-82E3-534A-20F4BA063FB5}|SSAS_GestionUniversitaire.dwproj|C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM SESSION.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E877D8A5-8741-82E3-534A-20F4BA063FB5}|SSAS_GestionUniversitaire.dwproj|solutionrelative:DIM SESSION.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E877D8A5-8741-82E3-534A-20F4BA063FB5}|SSAS_GestionUniversitaire.dwproj|C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DW Gestion Universitaire.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E877D8A5-8741-82E3-534A-20F4BA063FB5}|SSAS_GestionUniversitaire.dwproj|solutionrelative:DW Gestion Universitaire.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E877D8A5-8741-82E3-534A-20F4BA063FB5}|SSAS_GestionUniversitaire.dwproj|C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DW Gestion Universitaire.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E877D8A5-8741-82E3-534A-20F4BA063FB5}|SSAS_GestionUniversitaire.dwproj|solutionrelative:DW Gestion Universitaire.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DIM MATIERE.dim [Conception]",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM MATIERE.dim",
+              "RelativeDocumentMoniker": "DIM MATIERE.dim",
+              "ToolTip": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM MATIERE.dim [Conception]",
+              "RelativeToolTip": "DIM MATIERE.dim [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-06T11:11:08.848Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DIM FILIERE.dim [Conception]",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM FILIERE.dim",
+              "RelativeDocumentMoniker": "DIM FILIERE.dim",
+              "ToolTip": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM FILIERE.dim [Conception]",
+              "RelativeToolTip": "DIM FILIERE.dim [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-06T11:08:01.553Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DIM ETUDIANT.dim [Conception]",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM ETUDIANT.dim",
+              "RelativeDocumentMoniker": "DIM ETUDIANT.dim",
+              "ToolTip": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM ETUDIANT.dim [Conception]",
+              "RelativeToolTip": "DIM ETUDIANT.dim [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-06T11:13:04.463Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DIM ENSEIGNANT.dim [Conception]",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM ENSEIGNANT.dim",
+              "RelativeDocumentMoniker": "DIM ENSEIGNANT.dim",
+              "ToolTip": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM ENSEIGNANT.dim [Conception]",
+              "RelativeToolTip": "DIM ENSEIGNANT.dim [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-06T11:10:16.4Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DIM DATE.dim [Conception]",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM DATE.dim",
+              "RelativeDocumentMoniker": "DIM DATE.dim",
+              "ToolTip": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM DATE.dim [Conception]",
+              "RelativeToolTip": "DIM DATE.dim [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-06T10:36:40.503Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DIM NIVEAU.dim [Conception]",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM NIVEAU.dim",
+              "RelativeDocumentMoniker": "DIM NIVEAU.dim",
+              "ToolTip": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM NIVEAU.dim [Conception]",
+              "RelativeToolTip": "DIM NIVEAU.dim [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-06T11:12:08.417Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DIM SESSION.dim [Conception]",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM SESSION.dim",
+              "RelativeDocumentMoniker": "DIM SESSION.dim",
+              "ToolTip": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DIM SESSION.dim [Conception]",
+              "RelativeToolTip": "DIM SESSION.dim [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-06T16:11:31.829Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DW Gestion Universitaire.cube [Conception]",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DW Gestion Universitaire.cube",
+              "RelativeDocumentMoniker": "DW Gestion Universitaire.cube",
+              "ToolTip": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DW Gestion Universitaire.cube [Conception]",
+              "RelativeToolTip": "DW Gestion Universitaire.cube [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-06T10:25:48.343Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DW Gestion Universitaire.dsv [Conception]",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DW Gestion Universitaire.dsv",
+              "RelativeDocumentMoniker": "DW Gestion Universitaire.dsv",
+              "ToolTip": "C:\\Users\\hp\\Documents\\ForceN\\DW\\SSAS\\SSAS_GestionUniversitaire\\DW Gestion Universitaire.dsv [Conception]",
+              "RelativeToolTip": "DW Gestion Universitaire.dsv [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-06T10:11:10.143Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

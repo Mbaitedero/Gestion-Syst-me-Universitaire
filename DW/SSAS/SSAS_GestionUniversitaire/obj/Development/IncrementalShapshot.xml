@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSAS_GestionUniversitaire</Database>
+    <Server>JAPHET-ALLAHNDI</Server>
+    <ConnectionString>Data Source=JAPHET-ALLAHNDI;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>YOgHuOXbd2iz0qGpInPyT2E3j9o=06/06/2026 15:24:1606/06/2026 10:09:13</TimeStamp>
+        <ID>
+          <String>DW Gestion Universitaire</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>H9Y2HCMgsZ4r9U0/8w3GQTkef1Q=06/06/2026 10:25:4706/06/2026 10:11:03</TimeStamp>
+        <ID>
+          <String>DW Gestion Universitaire</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>aLoIIolEM8J3APUiKrGJ8A96VAE=06/06/2026 11:07:3406/06/2026 10:25:46</TimeStamp>
+        <ID>
+          <String>DIM DATE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OwZDUJdBiDArrBhVr2tVtjhF8CU=06/06/2026 11:11:0206/06/2026 10:25:46</TimeStamp>
+        <ID>
+          <String>DIM ENSEIGNANT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>JzYOFIYiwbROaDuNbwao4MgxTyg=06/06/2026 11:14:3306/06/2026 10:25:46</TimeStamp>
+        <ID>
+          <String>DIM ETUDIANT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>39YaEOMtzdCUPUmFUCE+emT6QaI=06/06/2026 11:09:0806/06/2026 10:25:46</TimeStamp>
+        <ID>
+          <String>DIM FILIERE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>d5FQV8dpHhvCILvRQ9oDDef5ops=06/06/2026 11:12:0306/06/2026 10:25:46</TimeStamp>
+        <ID>
+          <String>DIM MATIERE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>v9SIcxqLDr2CbCGL/A5khZoK1Qw=06/06/2026 11:12:4806/06/2026 10:25:47</TimeStamp>
+        <ID>
+          <String>DIM NIVEAU</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>PeaxZH/zDmSWf6NQP26Cx32mqjc=06/06/2026 16:12:2406/06/2026 10:25:47</TimeStamp>
+        <ID>
+          <String>DIM SESSION</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>KEgrw445fY9hEHfRztKHwYtepC4=06/06/2026 10:25:4806/06/2026 10:25:47</TimeStamp>
+        <ID>
+          <String>FAIT NOTE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ruvKDoflBj+8GdPXzg/qoVm0ARQ=06/06/2026 16:12:2406/06/2026 10:25:45hMZGvMlbwTUnPJgk8HtxRjSLrUA=06/06/2026 10:25:4706/06/2026 10:25:46</TimeStamp>
+        <ID>
+          <String>DW Gestion Universitaire</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>V+7vxcvAGc4yoXENM/8NaSBDf0s=06/06/2026 10:06:2006/06/2026 10:06:12</TimeStamp>
+      <ID>
+        <String>SSAS_GestionUniversitaire</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-06-06T16:12:35.406667Z</LastDeployed>
+</DeploymentSnapshot>
