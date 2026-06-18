@@ -53,23 +53,19 @@ Le pipeline ETL (Talend) alimente le Data Warehouse depuis les sources SQL/CSV, 
 │   DDL / DML SQL      │   Pipelines $group   │  ETL Talend → OLAP         │
 │   Jointures          │   $lookup / $unwind  │  MDX / SSAS / SSRS         │
 └─────────────────────┴──────────────────────┴────────────────────────────┘
-                                  ▲
-                    ┌─────────────┴──────────────┐
-                    │   Sources de données        │
-                    │   CSV · MySQL · MongoDB     │
-                    └────────────────────────────┘
 ```
 
 ---
 
 ## 🗄️ Partie 1 — Base de données relationnelle (MySQL)
 
-### Modèles
+### Modèle Conceptuel (MCD)
 
-| Modèle | Aperçu |
-|--------|--------|
-| Conceptuel (MCD) | `SQL/images/ModelisationConceptuelle.png` |
-| Logique (MLD) | `SQL/images/ConceptionLogique.png` |
+![Modèle Conceptuel](SQL/images/ModelisationConceptuelle.png)
+
+### Modèle Logique (MLD)
+
+![Modèle Logique](SQL/images/ConceptionLogique.png)
 
 ### Structure des tables (8 tables)
 
@@ -90,7 +86,8 @@ Le pipeline ETL (Talend) alimente le Data Warehouse depuis les sources SQL/CSV, 
 ```
 SQL/
 ├── GestionUniversitaireCreationTable.sql   # DDL — création des tables
-├── InsertionGestionUniversitaire.sql       # DML — insertion des données
+├── GestionUniversitaire_dataset.sql        # DML — insertion des données
+├── RequetesGestionUniversitaire.sql        # Requêtes d'analyse SQL
 └── data/                                   # Fichiers CSV de test
 ```
 
@@ -146,13 +143,19 @@ Les entités relationnelles sont **aplaties** en documents enrichis. Chaque docu
 | 9 | Performance par matière et semestre | `$group`, `$avg`, `$project` |
 | 10 | Charge d'enseignement par enseignant | `$addToSet`, `$size`, `$project` |
 
-### Opérateurs MongoDB utilisés
+### Résultats des requêtes
 
-```
-$group  $match  $sort  $project  $lookup  $unwind  $avg  $sum
-$addToSet  $first  $size  $cond  $divide  $multiply  $round
-$limit  $year  $concat  $filter  $arrayElemAt  $max  $push
-```
+**Étudiants avec moyenne supérieure à 17**
+
+![Étudiants moyenne > 17](NoSql/images/Etudiants_moyenne_supérieur_17.png)
+
+**Évolution du nombre d'étudiants par année**
+
+![Évolution par année](NoSql/images/Evolution_nbrStudentParAnnee.png)
+
+**Répartition par département et filière**
+
+![Répartition département/filière](NoSql/images/Nbr_Etudiants_Par_depart_filiere.png)
 
 ---
 
@@ -181,7 +184,7 @@ $limit  $year  $concat  $filter  $arrayElemAt  $max  $push
 └──────────────┘                            └─────────────┘
 ```
 
-**Grain de la table de faits :** 1 ligne = 1 étudiant × 1 matière × 1 session × 1 date d'évaluation
+**Grain :** 1 ligne = 1 étudiant × 1 matière × 1 session × 1 date d'évaluation
 
 ### Dimensions
 
@@ -199,15 +202,28 @@ $limit  $year  $concat  $filter  $arrayElemAt  $max  $push
 
 > Exécuter dans l'ordre : **dimensions d'abord, table de faits en dernier**
 
-| Ordre | Job | Destination |
-|-------|-----|-------------|
-| 1 | `JobDimDAte` | `DIM_DATE` |
-| 2 | `JobDim_Etudiant` | `DIM_ETUDIANT` |
-| 3 | `jobDIMFiliere` | `DIM_FILIERE` |
-| 4 | `JobDimNiveau` | `DIM_NIVEAU` |
-| 5 | `JobDimENseignant` | `DIM_ENSEIGNANT` |
-| 6 | `Jobdimmatiere` | `DIM_MATIERE` |
-| 7 | `JOBFAITENOTE` | `FAIT_NOTE` |
+| Ordre | Job | Destination | Aperçu |
+|-------|-----|-------------|--------|
+| 1 | `JobDimDAte` | `DIM_DATE` | ![JobDimDAte](DW/OLAP/images/Job_Talend/JobDimDAte.png) |
+| 2 | `JobDim_Etudiant` | `DIM_ETUDIANT` | ![JobDimEtudiant](DW/OLAP/images/Job_Talend/JobDim_Etudiant.png) |
+| 3 | `jobDIMFiliere` | `DIM_FILIERE` | ![JobDimFiliere](DW/OLAP/images/Job_Talend/jobDIMFiliere.png) |
+| 4 | `JobDimNiveau` | `DIM_NIVEAU` | ![JobDimNiveau](DW/OLAP/images/Job_Talend/JobDimNiveau.png) |
+| 5 | `JobDimENseignant` | `DIM_ENSEIGNANT` | ![JobDimEnseignant](DW/OLAP/images/Job_Talend/JobDimENseignant.png) |
+| 6 | `Jobdimmatiere` | `DIM_MATIERE` | ![JobDimMatiere](DW/OLAP/images/Job_Talend/Jobdimmatiere.png) |
+| 7 | `JOBFAITENOTE` | `FAIT_NOTE` | ![JobFaitNote](DW/OLAP/images/Job_Talend/JOBFAITENOTE.png) |
+
+### Vérification des dimensions chargées
+
+| Dimension | Aperçu |
+|-----------|--------|
+| `DIM_DATE` | ![Dim_date](DW/OLAP/images/Verification_Dimensions/Dim_date.png) |
+| `DIM_ETUDIANT` | ![Dim_Etudiant](DW/OLAP/images/Verification_Dimensions/Dim_Etudiant.png) |
+| `DIM_FILIERE` | ![Dim_Filiere](DW/OLAP/images/Verification_Dimensions/Dim_Filire.png) |
+| `DIM_NIVEAU` | ![Dim_niveau](DW/OLAP/images/Verification_Dimensions/Dim_niveau.png) |
+| `DIM_ENSEIGNANT` | ![Dim_enseignant](DW/OLAP/images/Verification_Dimensions/Dim_enseignant.png) |
+| `DIM_MATIERE` | ![Dim_Matiere](DW/OLAP/images/Verification_Dimensions/Dim_Matiere.png) |
+| `DIM_SESSION` | ![Dim_Session](DW/OLAP/images/Verification_Dimensions/Dim_Session.png) |
+| `FAIT_NOTE` | ![Table_Fait](DW/OLAP/images/Verification_Dimensions/Table_Fait.png) |
 
 ### Vues OLAP (6 vues analytiques)
 
@@ -234,12 +250,29 @@ $limit  $year  $concat  $filter  $arrayElemAt  $max  $push
 | 4 | Performance enseignant × matière | Enseignant × Matière |
 | 5 | Évolution par niveau et année | Niveau × Date × Session |
 
-### Cube SSAS & Rapports SSRS
+### Résultats MDX
 
-| Composant | Fichier projet | Description |
-|-----------|---------------|-------------|
-| Cube SSAS | `DW/SSAS/SSAS_GestionUniversitaire.slnx` | Cube multidimensionnel, navigation interactive |
-| Rapports SSRS | `DW/SSRS/SSRS_GestionUniversitaire.slnx` | Rapports paginés déployés sur Report Server |
+**Moyenne des notes par filière**
+
+![Moyenne par filière](DW/MDX/images/Moyenne_Des_Notes_Par_Filière.png)
+
+**Performance par enseignant et matière**
+
+![Performance enseignant/matière](DW/MDX/images/Performance_Par_enseignant_et_Matiere.png)
+
+### Cube SSAS
+
+![Cube SSAS](DW/SSAS/images/Cube.png)
+
+| Vue des données | Vue parcourue |
+|-----------------|---------------|
+| ![Vue données](DW/SSAS/images/Vue%20des%20%20données.png) | ![Vue parcourue](DW/SSAS/images/Vue%20parcourue.png) |
+
+### Rapports SSRS
+
+| Configuration | Rapport déployé | Rapport local |
+|---------------|-----------------|---------------|
+| ![Config SSRS](DW/SSRS/images/Gestionnaire_de_configuration_SSRS.png) | ![Déployé](DW/SSRS/images/RapportDeplouer_dans_RepportServer.png) | ![Non déployé](DW/SSRS/images/RapportNondeployer.png) |
 
 ---
 
@@ -292,22 +325,18 @@ $limit  $year  $concat  $filter  $arrayElemAt  $max  $push
 
 ```bash
 mysql -u root -p < SQL/GestionUniversitaireCreationTable.sql
-mysql -u root -p < SQL/InsertionGestionUniversitaire.sql
+mysql -u root -p < SQL/GestionUniversitaire_dataset.sql
 ```
 
 ### 2. Base NoSQL (MongoDB)
 
 ```bash
-# Via mongosh
 mongosh GestionUniversitaire < NoSql/Requettes.mongodb.js
-
-# Ou via MongoDB Compass : importer les CSV dans chaque collection
 ```
 
 ### 3. Data Warehouse (SQL Server)
 
 ```sql
--- Dans SSMS
 :r DW/OLAP/DW_GU_SQLSERVER.sql
 GO
 :r DW/OLAP/VUE_SQL_SERVER.sql
@@ -330,7 +359,7 @@ GO
 ### 5. Cube SSAS
 
 ```
-1. Ouvrir DW/SSAS/SSAS_GestionUniversitaire.slnx dans Visual Studio
+1. Ouvrir DW/SSAS/SSAS_GestionUniversitaire/SSAS_GestionUniversitaire.slnx dans Visual Studio
 2. Vérifier la connexion à DW_GestionUniversitaire
 3. Build → Deploy sur le serveur SSAS
 ```
@@ -338,7 +367,7 @@ GO
 ### 6. Rapports SSRS
 
 ```
-1. Ouvrir DW/SSRS/SSRS_GestionUniversitaire.slnx dans Visual Studio
+1. Ouvrir DW/SSRS/SSRS_GestionUniversitaire/SSRS_GestionUniversitaire.slnx dans Visual Studio
 2. Configurer TargetServerURL dans les propriétés du projet
 3. Build → Deploy les fichiers .rdl
 ```
